@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="RestService.ApiScheduleService" CodeBehind="ApiScheduleService.svc.cs" %>

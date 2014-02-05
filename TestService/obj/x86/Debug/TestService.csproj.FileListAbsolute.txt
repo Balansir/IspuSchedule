@@ -1,0 +1,12 @@
+C:\Users\Алексей\Google Диск\Projects\RestService\TestService\obj\x86\Debug\TestService.csprojResolveAssemblyReference.cache
+C:\Users\Алексей\Google Диск\Projects\RestService\TestService\bin\Debug\TestService.exe
+C:\Users\Алексей\Google Диск\Projects\RestService\TestService\bin\Debug\TestService.pdb
+C:\Users\Алексей\Google Диск\Projects\RestService\TestService\bin\Debug\Data.dll
+C:\Users\Алексей\Google Диск\Projects\RestService\TestService\bin\Debug\Data.pdb
+C:\Users\Алексей\Google Диск\Projects\RestService\TestService\obj\x86\Debug\TestService.exe
+C:\Users\Алексей\Google Диск\Projects\RestService\TestService\obj\x86\Debug\TestService.pdb
+C:\Users\Алексей\Google Диск\Projects\RestService\TestService\bin\Debug\DAL.dll
+C:\Users\Алексей\Google Диск\Projects\RestService\TestService\bin\Debug\Dapper.dll
+C:\Users\Алексей\Google Диск\Projects\RestService\TestService\bin\Debug\DAL.pdb
+C:\Users\Алексей\Google Диск\Projects\RestService\TestService\bin\Debug\Dapper.pdb
+C:\Users\Алексей\Google Диск\Projects\RestService\TestService\bin\Debug\Dapper.xml

@@ -1,0 +1,21 @@
+C:\Users\Алексей\Desktop\RestService\RestService\bin\RestService.dll
+C:\Users\Алексей\Desktop\RestService\RestService\bin\RestService.pdb
+C:\Users\Алексей\Desktop\RestService\RestService\obj\Debug\RestService.dll
+C:\Users\Алексей\Desktop\RestService\RestService\obj\Debug\RestService.pdb
+C:\Users\Алексей\Desktop\RestService\RestService\obj\Debug\RestService.csprojResolveAssemblyReference.cache
+C:\Users\Алексей\Desktop\RestService\RestService\bin\RestService.dll.config
+C:\Users\Алексей\Desktop\RestService\RestService\bin\Dapper.dll
+C:\Users\Алексей\Desktop\RestService\RestService\bin\Dapper.pdb
+C:\Users\Алексей\Desktop\RestService\RestService\bin\Dapper.xml
+C:\Users\Алексей\Google Диск\Projects\RestService\RestService\bin\RestService.dll
+C:\Users\Алексей\Google Диск\Projects\RestService\RestService\bin\RestService.pdb
+C:\Users\Алексей\Google Диск\Projects\RestService\RestService\bin\Dapper.dll
+C:\Users\Алексей\Google Диск\Projects\RestService\RestService\bin\Dapper.pdb
+C:\Users\Алексей\Google Диск\Projects\RestService\RestService\bin\Dapper.xml
+C:\Users\Алексей\Google Диск\Projects\RestService\RestService\obj\Debug\RestService.dll
+C:\Users\Алексей\Google Диск\Projects\RestService\RestService\obj\Debug\RestService.pdb
+C:\Users\Алексей\Google Диск\Projects\RestService\RestService\bin\Data.dll
+C:\Users\Алексей\Google Диск\Projects\RestService\RestService\bin\Data.pdb
+C:\Users\Алексей\Google Диск\Projects\RestService\RestService\obj\Debug\RestService.csprojResolveAssemblyReference.cache
+C:\Users\Алексей\Google Диск\Projects\RestService\RestService\bin\DAL.dll
+C:\Users\Алексей\Google Диск\Projects\RestService\RestService\bin\DAL.pdb

@@ -1,0 +1,10 @@
+C:\Users\Алексей\Google Диск\Projects\RestService\Data\bin\Debug\Data.dll
+C:\Users\Алексей\Google Диск\Projects\RestService\Data\bin\Debug\Data.pdb
+C:\Users\Алексей\Google Диск\Projects\RestService\Data\obj\Debug\Data.dll
+C:\Users\Алексей\Google Диск\Projects\RestService\Data\obj\Debug\Data.pdb
+C:\Users\Алексей\Google Диск\Projects\RestService\Data\bin\Debug\DAL.dll
+C:\Users\Алексей\Google Диск\Projects\RestService\Data\bin\Debug\Dapper.dll
+C:\Users\Алексей\Google Диск\Projects\RestService\Data\bin\Debug\DAL.pdb
+C:\Users\Алексей\Google Диск\Projects\RestService\Data\bin\Debug\Dapper.pdb
+C:\Users\Алексей\Google Диск\Projects\RestService\Data\bin\Debug\Dapper.xml
+C:\Users\Алексей\Google Диск\Projects\RestService\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
