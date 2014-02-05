@@ -44,13 +44,22 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="EntityRepository.cs" />
-    <Compile Include="IQueryObject.cs" />
-    <Compile Include="IShell.cs" />
+    <Compile Include="FacultyRepository.cs" />
+    <Compile Include="GroupRepository.cs" />
+    <Compile Include="IConvertable.cs" />
+    <Compile Include="IQuery.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SessionFactory.cs" />
+    <Compile Include="SubjectRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Data\Data.csproj">
+      <Project>{CF8A9184-08A7-421A-9290-35E06F79EA8F}</Project>
+      <Name>Data</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

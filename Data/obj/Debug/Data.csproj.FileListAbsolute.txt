@@ -8,3 +8,7 @@ C:\Users\Алексей\Google Диск\Projects\RestService\Data\bin\Debug\DAL.
 C:\Users\Алексей\Google Диск\Projects\RestService\Data\bin\Debug\Dapper.pdb
 C:\Users\Алексей\Google Диск\Projects\RestService\Data\bin\Debug\Dapper.xml
 C:\Users\Алексей\Google Диск\Projects\RestService\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
+C:\Users\Алексей\Documents\GitHub\IspuSchedule\Data\bin\Debug\Data.dll
+C:\Users\Алексей\Documents\GitHub\IspuSchedule\Data\bin\Debug\Data.pdb
+C:\Users\Алексей\Documents\GitHub\IspuSchedule\Data\obj\Debug\Data.dll
+C:\Users\Алексей\Documents\GitHub\IspuSchedule\Data\obj\Debug\Data.pdb

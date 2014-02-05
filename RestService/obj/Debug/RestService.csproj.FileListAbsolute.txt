@@ -19,3 +19,15 @@ C:\Users\Алексей\Google Диск\Projects\RestService\RestService\bin\Dat
 C:\Users\Алексей\Google Диск\Projects\RestService\RestService\obj\Debug\RestService.csprojResolveAssemblyReference.cache
 C:\Users\Алексей\Google Диск\Projects\RestService\RestService\bin\DAL.dll
 C:\Users\Алексей\Google Диск\Projects\RestService\RestService\bin\DAL.pdb
+C:\Users\Алексей\Documents\GitHub\IspuSchedule\RestService\bin\RestService.dll
+C:\Users\Алексей\Documents\GitHub\IspuSchedule\RestService\bin\RestService.pdb
+C:\Users\Алексей\Documents\GitHub\IspuSchedule\RestService\bin\DAL.dll
+C:\Users\Алексей\Documents\GitHub\IspuSchedule\RestService\bin\Data.dll
+C:\Users\Алексей\Documents\GitHub\IspuSchedule\RestService\bin\Dapper.dll
+C:\Users\Алексей\Documents\GitHub\IspuSchedule\RestService\bin\DAL.pdb
+C:\Users\Алексей\Documents\GitHub\IspuSchedule\RestService\bin\Data.pdb
+C:\Users\Алексей\Documents\GitHub\IspuSchedule\RestService\bin\Dapper.pdb
+C:\Users\Алексей\Documents\GitHub\IspuSchedule\RestService\bin\Dapper.xml
+C:\Users\Алексей\Documents\GitHub\IspuSchedule\RestService\obj\Debug\RestService.csprojResolveAssemblyReference.cache
+C:\Users\Алексей\Documents\GitHub\IspuSchedule\RestService\obj\Debug\RestService.dll
+C:\Users\Алексей\Documents\GitHub\IspuSchedule\RestService\obj\Debug\RestService.pdb

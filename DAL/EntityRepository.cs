@@ -1,20 +1,20 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data.SqlClient;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using Dapper;
+using Data.BuisnessObject;
 
 namespace DAL
 {
-	public class EntityRepository<T> where T:IQueryObject
+	public class EntityRepository<T> where T : IEntity
 	{
-		private SqlConnection _connection;
-
-		public List<T> Load()
+		public virtual string GetQuery(params object[] obj)
 		{
-			T defaultObj = default(T);
-			return _connection.Query<T>(defaultObj.GetQuery()).ToList();
+			return null;
+		}
+
+		protected List<T> Execute(params object[] obj)
+		{
+			return SessionFactory.OpenConnection(connection => connection.Query<T>(GetQuery(obj)).Cast<IEntity>()).Cast<T>().ToList();
 		}
 	}
 }

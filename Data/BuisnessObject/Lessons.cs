@@ -1,12 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Runtime.Serialization;
-using DAL;
 
 namespace Data.BuisnessObject
 {
 	[DataContract]
-	public class Lessons:IShell<Teacher, Auditory>
+	public class Lessons
 	{
 		[DataMember(Name = "subject", Order = 0)]
 		public string Subject { get; set; }

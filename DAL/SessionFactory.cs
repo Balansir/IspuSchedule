@@ -1,26 +1,29 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
-using System.Linq;
-using System.Runtime.InteropServices;
-using System.Text;
+using Data.BuisnessObject;
 
 namespace DAL
 {
 	public static class SessionFactory
 	{
-		private static SqlConnection _connection;
-
 		public static string ConnectionString { get; set; }
 
-		public static SqlConnection Connection { get { return _connection; } }
-		
-		public static void SetConnection(string connectionString)
+		public static void Load(string connectionString)
 		{
 			ConnectionString = connectionString;
+		}
 
-			_connection = new SqlConnection(connectionString);
-			_connection.Open();
+		internal static IEnumerable<IEntity> OpenConnection(Func<SqlConnection, IEnumerable<IEntity>> sqlAction)
+		{
+			IEnumerable<IEntity> result;
+			using (var connection = new SqlConnection(ConnectionString))
+			{
+				connection.Open();
+				result = sqlAction(connection);
+				connection.Close();
+			}
+			return result;
 		}
 	}
 }

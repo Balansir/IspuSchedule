@@ -27,12 +27,5 @@ namespace RestService
 			BodyStyle = WebMessageBodyStyle.Bare,
 			UriTemplate = "get_schedule?group_id={idGroup}")]
 		SubjectsByGroup GetSchedule(int idGroup);
-
-		[OperationContract]
-		[WebInvoke(Method = "GET",
-			ResponseFormat = WebMessageFormat.Json,
-			BodyStyle = WebMessageBodyStyle.Bare,
-			UriTemplate = "test/")]
-		string Test();
 	}
 }

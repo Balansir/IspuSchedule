@@ -1,18 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using DAL;
+﻿using System.Collections.Generic;
 
 namespace Data.BuisnessObject
 {
-	public class Groups:IShell<Group>
+	public class Groups
 	{
 		public IList<Group> groups;
-
-		public void Initialization(List<Group> items)
-		{
-			groups = items;
-		}
 	}
 }
