@@ -1,0 +1,10 @@
+C:\Users\Алексей\Documents\GitHub\IspuSchedule\TestProject\obj\x86\Debug\TestProject.csprojResolveAssemblyReference.cache
+C:\Users\Алексей\Documents\GitHub\IspuSchedule\TestProject\obj\x86\Debug\TestProject.MainForm.resources
+C:\Users\Алексей\Documents\GitHub\IspuSchedule\TestProject\obj\x86\Debug\TestProject.Properties.Resources.resources
+C:\Users\Алексей\Documents\GitHub\IspuSchedule\TestProject\obj\x86\Debug\TestProject.csproj.GenerateResource.Cache
+C:\Users\Алексей\Documents\GitHub\IspuSchedule\TestProject\bin\Debug\TestProject.exe
+C:\Users\Алексей\Documents\GitHub\IspuSchedule\TestProject\bin\Debug\TestProject.pdb
+C:\Users\Алексей\Documents\GitHub\IspuSchedule\TestProject\bin\Debug\Data.dll
+C:\Users\Алексей\Documents\GitHub\IspuSchedule\TestProject\bin\Debug\Data.pdb
+C:\Users\Алексей\Documents\GitHub\IspuSchedule\TestProject\obj\x86\Debug\TestProject.exe
+C:\Users\Алексей\Documents\GitHub\IspuSchedule\TestProject\obj\x86\Debug\TestProject.pdb

@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // набора атрибутов. Измените значения этих атрибутов, чтобы изменить сведения,
 // связанные со сборкой.
 
-[assembly: AssemblyTitle("TestService")]
+[assembly: AssemblyTitle("TestProject")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("TestService")]
+[assembly: AssemblyProduct("TestProject")]
 [assembly: AssemblyCopyright("Copyright ©  2014")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -22,7 +22,7 @@ using System.Runtime.InteropServices;
 
 // Следующий GUID служит для идентификации библиотеки типов, если этот проект будет видимым для COM
 
-[assembly: Guid("99ac82f3-be06-4b8e-8ce0-06bbd7954432")]
+[assembly: Guid("7662b9dc-2b73-45ac-ad3f-7d6c99868b8e")]
 
 // Сведения о версии сборки состоят из следующих четырех значений:
 //

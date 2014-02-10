@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using Data.BuisnessObject;
 
@@ -31,7 +32,7 @@ namespace DAL
 				lesson.TypeSubject = s.TypeSubject;
 				lesson.StartTime = s.StartTime.ToShortTimeString();
 				lesson.EndTime = s.EndTime.ToShortTimeString();
-				lesson.Parity = s.Parity;
+				lesson.Parity = GetParity(s.WeekNumber, s.BegWeekNumber, s.StartTerm);
 				lesson.StartTerm = s.StartTerm.ToShortDateString();
 				lesson.EndTerm = s.EndTerm.ToShortDateString();
 				lesson.Dates = null; // здесь нужно бы записывать даты для некоторых предметов, но нужно проводить парсинг. Парсинг проводить из s.Dates
@@ -57,7 +58,7 @@ namespace DAL
 
 			return string.Format(@"
 			SELECT		tt.Id,
-						RTRIM(LTRIM(CAST(subgr.Course as VARCHAR) + '-' + CAST(gr.Name as VARCHAR)+ ' ' + CAST(subgr.Name as VARCHAR))) as GroupName,
+						RTRIM(LTRIM(CAST(subgr.Course as VARCHAR) + '-' + gr.Name + ' ' + subgr.Name)) as GroupName,
 						CASE wd.Name 
 							WHEN 'понедельник'	THEN 1
 							WHEN 'вторник'		THEN 2
@@ -79,7 +80,8 @@ namespace DAL
 						END as TypeSubject,
 						CONVERT(VARCHAR(5), CAST(ETime.BegTime AS TIME), 108) as StartTime,
 						CONVERT(VARCHAR(5), CAST(ETime.EndTime AS TIME), 108) as EndTime,
-						tt.WeekNumber as Parity,
+						tt.WeekNumber as WeekNumber,
+						shedule.BegWeekNumber,
 						CONVERT(VARCHAR, CAST(shedule.BegDate as DATE), 104) as StartTerm,
 						CONVERT(VARCHAR, CAST(shedule.EndDate as DATE), 104) as EndTerm,
 						tt.Date as Dates,
@@ -100,6 +102,23 @@ namespace DAL
 			WHERE		tt.StreamId = {0}
 			ORDER BY	tt.WeekDayId
 			", idGroup);
+		}
+
+		// TODO: нужно определить чётность недели, т.к. наши недели не совпадают с неделями сервиса рассписания
+		/// <summary>
+		/// Определение чётности/нечётности недели
+		/// </summary>
+		/// <param name="weekNumber">Номер недели в нашем рассписании</param>
+		/// <param name="weekNumberStart">Неделя, с которой начинается семестр</param>
+		/// <param name="start">Начало занятий</param>
+		/// <returns>Чётность недели</returns>
+		private int GetParity(int weekNumber, int weekNumberStart, DateTime start)
+		{
+			var countDay = (int) start.ToOADate();
+			var parity = (countDay/7)%2;
+			if ((parity == 0 && weekNumberStart == 2) || (parity == weekNumberStart))
+				return weekNumber;
+			return weekNumber == 1 ? 2 : 1;
 		}
 	}
 }

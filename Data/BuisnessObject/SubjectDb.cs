@@ -11,7 +11,8 @@ namespace Data.BuisnessObject
 		public int TypeSubject { get; set; }
 		public DateTime StartTime { get; set; }
 		public DateTime EndTime { get; set; }
-		public int Parity { get; set; }
+		public int WeekNumber { get; set; }
+		public int BegWeekNumber { get; set; }
 		public DateTime StartTerm { get; set; }
 		public DateTime EndTerm { get; set; }
 		public string Dates { get; set; }
